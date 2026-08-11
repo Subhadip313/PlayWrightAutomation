@@ -12,7 +12,7 @@ test('First Test', async function({browser, page}) {
     
 });
 
-test.only('Second Test', async function({ page}) {
+test('Second Test', async function({ page}) {
     
     //await page.goto('https://playwright.dev/', {waitUntil: 'load'});
 
