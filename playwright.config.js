@@ -24,8 +24,8 @@ export default defineConfig({
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    browserName: 'chromium',  /* Browser name to use. */
-    headless: false,  /* Run tests in headless mode.  */
+    //browserName: 'chromium',  /* Browser name to use. */
+    headless: true,  /* Run tests in headless mode.  */
     
     trace: 'on-first-retry', /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
   },
