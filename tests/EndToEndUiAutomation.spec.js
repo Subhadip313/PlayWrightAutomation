@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test.only('Full End to End order place Flow', async function ({ page }) {
+test('Full End to End order place Flow', async function ({ page }) {
 
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
 
